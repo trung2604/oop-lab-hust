@@ -1,0 +1,5 @@
+Question: If you create a constructor method to build a DVD by title then create a constructor method to build a DVD by category. Does JAVA allow you to do this?
+
+Answer: No, it is not allowed. In Java, while you can overload methods, each method must have a unique signature. A method’s signature consists of its name and the parameter types, which can vary by the number or type of parameters.
+
+In this scenario, if you define a new constructor like public DigitalVideoDisc(String category), it will conflict with the existing constructor since both will share the same signature DigitalVideoDisc(String), leading to ambiguity.

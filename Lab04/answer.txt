@@ -1,0 +1,35 @@
+Alternatively, to compare items in the cart, instead of using Comparator, we can use the Comparable interface and override the compareTo() method. You can refer to the Java documentation for more information about this interface.
+
+If we use the Comparable approach:
+
+Which class should implement the Comparable interface?
+The class that contains the objects you want to compare, which in this case is the abstract class Media.
+
+How should you implement the compareTo() method to reflect the desired ordering?
+The compareTo() method should compare the object properties. For sorting by title and then cost, it can compare the title first, and if they are equal, it will compare the cost.
+@Override
+public int compareTo(Media other) {
+    if (!this.getTitle().equals(other.getTitle())) {
+        return this.getTitle().compareTo(other.getTitle());
+    } else {
+        return Double.compare(this.getCost(), other.getCost());
+    }
+}
+
+Can we have two sorting rules (by title then cost, and by cost then title) using the Comparable interface?
+No, using only Comparable, we can define only one sorting rule through the compareTo() method, so we cannot have two sorting rules at the same time.
+
+If DVDs have a different ordering rule (by title, then decreasing length, then cost), how would you modify the code?
+For DVDs with a different sorting rule, you can modify the compareTo() method to first compare the title, then the length in decreasing order, and lastly the cost.
+public class DVD extends Media implements Comparable<DVD> { 
+    @Override
+    public int compareTo(DVD other) {
+        if (!this.getTitle().equals(other.getTitle())) {
+            return this.getTitle().compareTo(other.getTitle());
+        } else if (this instanceof DVD && other instanceof DVD) {
+            return Integer.compare(((DVD) other).getLength(), ((DVD)this).getLength());
+        } else {
+            return Double.compare(this.getCost(), other.getCost());
+        } 
+    }
+}

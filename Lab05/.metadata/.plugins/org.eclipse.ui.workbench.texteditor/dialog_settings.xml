@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<item key="replaceBarOpen" value="true"/>
+	<list key="searchhistory">
+		<item value="Play"/>
+		<item value="itemsOrdered"/>
+		<item value="mediaList"/>
+		<item value="JDialog"/>
+	</list>
+	<list key="replacehistory">
+		<item value="itemsInStore"/>
+		<item value="itemsOrdered"/>
+	</list>
+</section>

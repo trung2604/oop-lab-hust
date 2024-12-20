@@ -1,0 +1,3 @@
+6.1 What happens if users choose "Cancel"?
+
+In the showConfirmDialog, the "Cancel" option typically returns the value JOptionPane.CANCEL_OPTION (which is usually -1). However, in the code provided, only JOptionPane.YES_OPTION and JOptionPane.NO_OPTION are being handled. If "Cancel" is selected, no specific action is taken, and the program will proceed to exit (System.exit(0)).

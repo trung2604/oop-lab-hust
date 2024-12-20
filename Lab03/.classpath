@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="var" path="JRE_LIB" rootpath="JRE_SRCROOT" sourcepath="JRE_SRC"/>
+	<classpathentry kind="src" path="IT3103.744528.2024.1.20226128.DoDinhTrung/src"/>
+	<classpathentry kind="output" path="IT3103.744528.2024.1.20226128.DoDinhTrung/bin"/>
+</classpath>

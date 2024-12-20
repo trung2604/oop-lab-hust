@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;hust.soict.itep.aims.exeption&apos; to &apos;hust.soict.itep.aims.exception&apos;&#x0D;&#x0A;- Original project: &apos;src&apos;&#x0D;&#x0A;- Original element: &apos;src/hust.soict.itep.aims.exeption&apos;&#x0D;&#x0A;- Renamed element: &apos;src/hust.soict.itep.aims.exception&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;hust.soict.itep.aims.exeption&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/&lt;hust.soict.itep.aims.exeption" name="hust.soict.itep.aims.exception" qualified="false" references="true" stamp="1734532656009" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,5 @@
+package hust.soict.itep.swing.javafx;
+
+public class Painter {
+
+}
